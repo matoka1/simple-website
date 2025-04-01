@@ -36,12 +36,22 @@
 
 
   <section id="contact">
-    <h2>Contact</h2>
-    <p>If you want to reach me, feel free to email me at: <a href="mailto:example@example.com">example@example.com</a></p>
-  </section>
+  <h2>Contact Us</h2>
+  <p>If you want to reach us, feel free to email us at: <a href="mailto:example@example.com">example@example.com</a></p>
 
-  <footer>
-    <p>&copy; 2025 My Simple Website</p>
-  </footer>
-</body>
-</html>
+  <h3>Or fill out the contact form below:</h3>
+
+  <form action="https://formspree.io/f/your-email" method="POST">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
