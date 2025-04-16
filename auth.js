@@ -11,7 +11,7 @@ document.getElementById("signupForm")?.addEventListener("submit", function (e) {
   }
 
   // Send to Google Sheet
-  fetch("PASTE_YOUR_WEB_APP_URL_HERE", {
+  fetch(https://script.google.com/macros/s/AKfycbyjjVQEw5DyQa9OVmmzzDVXzgWg6yZTZ-avalbpJvoJ9mdR9uw1GpPsc8NF72m3BiI/exec, {
     method: "POST",
     body: JSON.stringify({ username, password }),
     headers: {
